@@ -9,13 +9,13 @@ These are just some QA's regarding programming I found interesting.
 **Answers**
 > **Disclaimer:** While I cannot claim to be one of “the best” programmers, I have known some much better than I am, but still I am confident that I am good enough that I am willing to be a proxy for the purposes of this question.
 
-Not generally. They will do that for key parts, but generally not large sections. Much of code is “boilerplate”. It’s code you have written dozens, possibly hundreds of times before. You write it out using idioms that you have used so often that you are almost on auto-pilot.
+> Not generally. They will do that for key parts, but generally not large sections. Much of code is “boilerplate”. It’s code you have written dozens, possibly hundreds of times before. You write it out using idioms that you have used so often that you are almost on auto-pilot.
 
-However, you know that you make typographical errors and the code will interact with ones who aren’t careful, so you include assertions that validate that things are working as expected and you write unit tests to assure yourself that you didn’t write < when you meant <=.
+> However, you know that you make typographical errors and the code will interact with ones who aren’t careful, so you include assertions that validate that things are working as expected and you write unit tests to assure yourself that you didn’t write < when you meant <=.
 
-And the assertions you write will be sort of like a proof, You want to be able to show that the code will always work within the limits that you have laid down. And those limits will often be reflected in your unit tests. So, while you didn’t formally reason it out before hand, you have left enough breadcrumbs that if you need to debug it weeks, months, or even years later, that you will be able to do so then.
+> And the assertions you write will be sort of like a proof, You want to be able to show that the code will always work within the limits that you have laid down. And those limits will often be reflected in your unit tests. So, while you didn’t formally reason it out before hand, you have left enough breadcrumbs that if you need to debug it weeks, months, or even years later, that you will be able to do so then.
 
-But most of the code you write isn’t so complex that you need to reason it out formally. It is an extension, a variation on a theme, of the kind of code you know how to write. Yes, it may be a new combination of those parts, or solve a slightly different problem that you haven’t exactly solved before, but it will be close enough that you are applying well-known tools in your toolbox.
+> But most of the code you write isn’t so complex that you need to reason it out formally. It is an extension, a variation on a theme, of the kind of code you know how to write. Yes, it may be a new combination of those parts, or solve a slightly different problem that you haven’t exactly solved before, but it will be close enough that you are applying well-known tools in your toolbox.
 
 **An analogy:** You aren’t inventing the wheel not having seen something circular before, You are making a wheel that needs to fit on a lunar rover, but you have already done wheels on Ferraris and Semi trailers. You even have done wheels as part of tank treads. So, yes there are unique aspects to this problem, but you have a general idea of what it is going to look like. And, you know some of (not necessarily all of) the important factors, e.g. no air on the moon. sharp rocks. probably very cold. maybe very “sandy”—worry about that.
 
