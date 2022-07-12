@@ -11,6 +11,7 @@ These are just some QA's regarding programming I found interesting.
 
 
 **Answers 1**
+
  **Disclaimer:** While I cannot claim to be one of “the best” programmers, I have known some much better than I am, but still I am confident that I am good enough that I am willing to be a proxy for the purposes of this question.
 
 > Not generally. They will do that for key parts, but generally not large sections. Much of code is “boilerplate”. It’s code you have written dozens, possibly hundreds of times before. You write it out using idioms that you have used so often that you are almost on auto-pilot.
